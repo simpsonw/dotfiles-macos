@@ -137,23 +137,8 @@ install_dotfiles () {
   done
 }
 
-install_vscode_settings () {
-  info 'installing vscode settings'
-
-  local overwrite_all=false backup_all=false skip_all=false
-  echo "$DOTFILES_ROOT/vscode"
-
-  for src in $(find -H "$DOTFILES_ROOT/vscode" -maxdepth 1 -name '*.symlink')
-  do
-    echo basename "${src}"
-    dst="$HOME/Library/Application Support/Code/User/$(basename "${src%.*}")"
-    link_file "$src" "$dst"
-  done
-}
-
 setup_gitconfig
 install_dotfiles
-install_vscode_settings
 
 # If we're on a Mac, let's install and setup homebrew.
 if [ "$(uname -s)" == "Darwin" ]

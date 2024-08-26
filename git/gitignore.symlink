@@ -1,3 +1,16 @@
 .DS_Store
 *~
 *.swp
+.#*
+.settings.el
+.php_cs.cache
+TAGS
+tags.vim
+GTAGS
+GRTAGS
+GPATH
+.tern-port
+.ac-php-conf.json
+*.pyc
+node_modules/
+.bin/

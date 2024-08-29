@@ -48,3 +48,7 @@ zle -N up-line-or-beginning-search
 zle -N down-line-or-beginning-search
 bindkey "^[[A" up-line-or-beginning-search # Up
 bindkey "^[[B" down-line-or-beginning-search # Down
+
+if [ -d "$HOME/google-cloud-sdk/bin" ]; then
+  export PATH=$PATH:"$HOME/google-cloud-sdk/bin"
+fi

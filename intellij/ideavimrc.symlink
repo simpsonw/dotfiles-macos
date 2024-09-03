@@ -1,4 +1,5 @@
 source ~/.intellimacs/spacemacs.vim
+set which-key
 
 " (Optional) Enable other Intellimacs modules
 source ~/.intellimacs/extra.vim

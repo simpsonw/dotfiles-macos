@@ -9,6 +9,7 @@ brew 'htop'
 brew 'ispell'
 brew 'jq'
 brew 'tmux'
+brew 'wget'
 
 cask '1password-cli'
 cask 'visual-studio-code'

@@ -8,6 +8,8 @@ brew 'emacs-plus', args:['with-native-comp', 'with-spacemacs-icon', 'with-imagem
 brew 'htop'
 brew 'ispell'
 brew 'jq'
+brew 'step'
+brew 'tig'
 brew 'tmux'
 brew 'wget'
 

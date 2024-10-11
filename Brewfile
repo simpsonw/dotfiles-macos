@@ -4,7 +4,6 @@ tap 'homebrew/bundle'
 tap 'd12frosted/emacs-plus'
 
 brew 'ag'
-brew 'docker'
 brew 'emacs-plus', args:['with-native-comp', 'with-spacemacs-icon', 'with-imagemagick']
 brew 'htop'
 brew 'ispell'

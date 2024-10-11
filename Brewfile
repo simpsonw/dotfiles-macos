@@ -5,6 +5,7 @@ tap 'd12frosted/emacs-plus'
 
 brew 'ag'
 brew 'emacs-plus', args:['with-native-comp', 'with-spacemacs-icon', 'with-imagemagick']
+brew 'grpcurl'
 brew 'htop'
 brew 'ispell'
 brew 'jq'

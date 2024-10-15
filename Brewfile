@@ -8,6 +8,7 @@ brew 'emacs-plus', args:['with-native-comp', 'with-spacemacs-icon', 'with-imagem
 brew 'grpcurl'
 brew 'htop'
 brew 'ispell'
+brew 'jenv'
 brew 'jq'
 brew 'packer'
 brew 'step'

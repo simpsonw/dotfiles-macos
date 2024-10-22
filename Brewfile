@@ -20,6 +20,7 @@ brew 'wget'
 
 cask '1password-cli'
 cask 'chef-workstation'
+cask 'raycast'
 cask 'visual-studio-code'
 cask 'zoom'
 cask 'zed'

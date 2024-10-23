@@ -2,6 +2,7 @@ cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
 tap 'd12frosted/emacs-plus'
+tap 'etsy/terraform-demux', 'https://github.com/etsy/terraform-demux'
 
 brew 'ag'
 brew 'emacs-plus', args:['with-native-comp', 'with-spacemacs-icon', 'with-imagemagick']
@@ -14,6 +15,7 @@ brew 'jq'
 brew 'maven'
 brew 'packer'
 brew 'step'
+brew 'etsy/terraform-demux/terraform-demux'
 brew 'tig'
 brew 'tmux'
 brew 'wget'

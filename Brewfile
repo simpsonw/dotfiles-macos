@@ -30,3 +30,4 @@ cask 'raycast'
 cask 'visual-studio-code'
 cask 'zoom'
 cask 'zed'
+brew "gofumpt"
